@@ -1,0 +1,26 @@
+{
+    "app": {
+        "name": "WhatsMyFinder",
+        "version": "2.0.0",
+        "author": "@Osinter_Telegram",
+        "github": "https://github.com/yourusername/whatsmyfinder",
+        "data_source": "WebBreacher/WhatsMyName",
+        "data_source_url": "https://github.com/WebBreacher/WhatsMyName"
+    },
+    "paths": {
+        "database": "wmn-data.json",
+        "reports_html": "reports/html",
+        "reports_csv": "reports/csv",
+        "locales": "locales"
+    },
+    "search": {
+        "default_concurrent_requests": 5,
+        "default_timeout": 15,
+        "max_sites_per_category": 731
+    },
+    "ui": {
+        "default_language": "ru",
+        "available_languages": ["ru", "en"],
+        "colors_enabled": true
+    }
+}
