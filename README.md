@@ -1,3 +1,5 @@
+<img src="https://github.com/Teleosint/WhatsMyFinder/blob/main/_logo.png" width="400" height="400">
+
 # 🔍 WhatsMyFinder
 
 **OSINT инструмент для поиска username на различных платформах**
