@@ -1,1 +1,62 @@
-
+{
+    "app": {
+        "name": "WhatsMyFinder",
+        "description": "OSINT tool for username search across multiple platforms",
+        "version": "2.0.0",
+        "author": "@Osinter_Telegram",
+        "database_source": "Using database from WebBreacher/WhatsMyName"
+    },
+    "menu": {
+        "title": "🔍 WhatsMyFinder - OSINT Username Search",
+        "search_username": "Search username",
+        "select_categories": "Select categories",
+        "export_format": "Export format",
+        "settings": "Settings",
+        "exit": "Exit",
+        "back": "Back"
+    },
+    "categories": {
+        "title": "📂 Select Categories",
+        "select_all": "Select all",
+        "deselect_all": "Deselect all",
+        "confirm": "Confirm selection",
+        "selected_count": "Selected: {}"
+    },
+    "export": {
+        "title": "📄 Select Export Format",
+        "html": "HTML Report",
+        "csv": "CSV + TXT",
+        "both": "Both formats",
+        "html_desc": "Beautiful report with clickable links",
+        "csv_desc": "Table format for Excel/Google Sheets"
+    },
+    "search": {
+        "enter_username": "Enter username to search:",
+        "searching": "🔍 Searching: {}",
+        "checking_sites": "Checking {} sites...",
+        "time_estimate": "Estimated time: {} seconds"
+    },
+    "results": {
+        "title": "📊 Search Results",
+        "username": "Username: {}",
+        "sites_checked": "Sites checked: {}",
+        "profiles_found": "Profiles found: {}",
+        "errors": "Errors: {}",
+        "categories": "Categories with results: {}",
+        "report_saved": "Report saved: {}",
+        "no_results": "No profiles found"
+    },
+    "errors": {
+        "no_database": "Database not found. Please download wmn-data.json",
+        "download_db": "Download database from: {}",
+        "network_error": "Network error: {}",
+        "timeout": "Timeout for site: {}"
+    },
+    "settings": {
+        "title": "⚙️ Settings",
+        "language": "Language",
+        "concurrent_requests": "Concurrent requests",
+        "timeout": "Timeout (seconds)",
+        "save": "Save settings"
+    }
+}
